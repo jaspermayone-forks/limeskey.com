@@ -1,0 +1,60 @@
+/* Font Face Declarations */
+@font-face {
+  font-family: 'TrenchSlab';
+  src: url('/fonts/TrenchSlab/TrenchSlab-Light.woff2') format('woff2'),
+       url('/fonts/TrenchSlab/TrenchSlab-Light.woff') format('woff'),
+       url('/fonts/TrenchSlab/TrenchSlab-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TrenchSlab';
+  src: url('/fonts/TrenchSlab/TrenchSlab-Regular.woff2') format('woff2'),
+       url('/fonts/TrenchSlab/TrenchSlab-Regular.woff') format('woff'),
+       url('/fonts/TrenchSlab/TrenchSlab-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TrenchSlab';
+  src: url('/fonts/TrenchSlab/TrenchSlab-Medium.woff2') format('woff2'),
+       url('/fonts/TrenchSlab/TrenchSlab-Medium.woff') format('woff'),
+       url('/fonts/TrenchSlab/TrenchSlab-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TrenchSlab';
+  src: url('/fonts/TrenchSlab/TrenchSlab-Semibold.woff2') format('woff2'),
+       url('/fonts/TrenchSlab/TrenchSlab-Semibold.woff') format('woff'),
+       url('/fonts/TrenchSlab/TrenchSlab-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TrenchSlab';
+  src: url('/fonts/TrenchSlab/TrenchSlab-Bold.woff2') format('woff2'),
+       url('/fonts/TrenchSlab/TrenchSlab-Bold.woff') format('woff'),
+       url('/fonts/TrenchSlab/TrenchSlab-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+/* Base Styles */
+main {
+  font-family: 'TrenchSlab', serif;
+}
+
+h1 {
+  font-family: 'TrenchSlab', serif;
+  font-weight: 400;
+}
